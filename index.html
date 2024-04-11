@@ -6,7 +6,7 @@
     <title>Let's Talk About Communication</title>
     <meta property="og:title" content="communication">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./index.css" />
 
@@ -20,7 +20,7 @@
 
                     <a href="https://globaltalentgro.com/" target="_blank" rel="noreferrer noopener"
                         class="home-logo logo">
-                        <img alt="image" src="TalentGro-RetinaLogo.svg" class="home-image" /></a>
+                        <img alt="image" src="Assets/TalentGro-RetinaLogo.svg" class="home-image" /></a>
 
                     <div class="contact-info">
                         <p><span>Contact:</span> <a href="tel:+917986667827">
@@ -43,7 +43,7 @@
                             Workshop
                         </span>
 
-                        <div class="home-btn-group"><button class="buttonFilled">Register Now</button></div>
+                        <div class="home-btn-group"><button id="btn1" class="buttonFilled">Register Now</button></div>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
 
                         <div class="home-container4">
                             <div class="featuresCard">
-                                <img src="featureIcon.svg" class="featuresIcon" alt="featureimg">
+                                <img src="Assets/featureIcon.svg" class="featuresIcon" alt="featureimg">
 
                                 <div class="feature-card-container">
                                     <h3 class="feature-card-text heading3"><span>Interactive Workshops</span></h3><span
@@ -73,7 +73,7 @@
                             </div>
 
                             <div class="featuresCard">
-                                <img src="featureIcon.svg" class="featuresIcon" alt="featureimg">
+                                <img src="Assets/featureIcon.svg" class="featuresIcon" alt="featureimg">
                                 <div class="feature-card-container">
                                     <h3 class="feature-card-text heading3"><span>Expert Guidance</span></h3><span
                                         class="bodySmall"><span>Learn from industry professionals with years of
@@ -82,7 +82,7 @@
                             </div>
 
                             <div class="featuresCard">
-                                <img src="featureIcon.svg" class="featuresIcon" alt="featureimg">
+                                <img src="Assets/featureIcon.svg" class="featuresIcon" alt="featureimg">
                                 <div class="feature-card-container">
                                     <h3 class="feature-card-text heading3"><span>Practical Exercises</span></h3><span
                                         class="bodySmall"><span>Practice real-life scenarios to improve your
@@ -91,7 +91,7 @@
                             </div>
 
                             <div class="featuresCard">
-                                <img src="featureIcon.svg" class="featuresIcon" alt="featureimg">
+                                <img src="Assets/featureIcon.svg" class="featuresIcon" alt="featureimg">
                                 <div class="feature-card-container">
                                     <h3 class="feature-card-text heading3"><span>Personalized Feedback</span></h3><span
                                         class="bodySmall"><span>Receive individualized feedback to help you grow and
@@ -112,7 +112,7 @@
                             class="home-text49 bodyLarge"><span>Here are
                                 some of the most common questions that we
                                 get.</span><br />
-                            </span>
+                        </span>
 
                     </div>
 
@@ -182,7 +182,7 @@
                 <div class="home-container7"><span>
                         <a href="https://globaltalentgro.com/" target="_blank" rel="noreferrer noopener"
                             class="home-logo logo">
-                            <img alt="image" src="TalentGro-RetinaLogo.svg" class="home-image" /></a>
+                            <img alt="image" src="Assets/TalentGro-RetinaLogo.svg" class="home-image" /></a>
                     </span>
 
                     <nav class="home-nav1"><span class="bodySmall">
@@ -207,21 +207,28 @@
 
                     <div class="home-icon-group1">
                         <a href="https://www.linkedin.com/company/talentgro-global-pvt-ltd/" target="_blank"><img
-                                src="linkedin.svg" alt="" class="home-icon10 socialIcons"></a>
+                                src="Assets/linkedin.svg" alt="" class="home-icon10 socialIcons"></a>
 
-                        <a href="https://twitter.com/TalentGro_" target="_blank"><img src="x.svg" alt=""
+                        <a href="https://twitter.com/TalentGro_" target="_blank"><img src="Assets/x.svg" alt=""
                                 class="home-icon10 socialIcons"></a>
 
-                        <a href="https://www.instagram.com/talentgro_global/"><img src="instagram.svg" alt=""
+                        <a href="https://www.instagram.com/talentgro_global/"><img src="Assets/instagram.svg" alt=""
                                 class="home-icon10 socialIcons" target="_blank"></a>
 
-                        <a href="https://www.facebook.com/TalentGroGlobal" target="_blank"><img src="facebook.svg"
+                        <a href="https://www.facebook.com/TalentGroGlobal" target="_blank"><img src="Assets/facebook.svg"
                                 alt="" class="home-icon10 socialIcons"></a>
                     </div>
                 </div>
             </footer>
         </div>
     </div>
+
+    <script>
+        const btn1 = document.getElementById("btn1");
+        btn1.addEventListener("click", function () {
+            alert("Thank you for your interest! Please contact us using the information provided.");
+        })
+    </script>
 </body>
 
 </html>

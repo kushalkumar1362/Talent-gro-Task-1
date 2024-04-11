@@ -289,7 +289,7 @@
     flex-direction: row;
     justify-content: center;
     background-color: var(--dl-color-custom-accent1);
-    background-image: url("FAQ.jpeg");
+    background-image: url("Assets/FAQ.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
