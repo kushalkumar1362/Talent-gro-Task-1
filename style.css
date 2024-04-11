@@ -21,6 +21,7 @@
     --dl-space-space-twounits: 32px;
     --dl-space-space-threeunits: 48px;
     --dl-space-space-fourunits: 64px;
+    --dl-space-space-fiveunits: 80px;
     --dl-space-space-sixunits: 96px;
     --dl-color-custom-neutral-dark: #141a22;
     --dl-color-custom-neutral-light: #ffffff;
@@ -259,7 +260,6 @@
 
 .heading3 {
     font-size: 20px;
-    text-align: center;
     font-family: Helvetica Neue;
     font-weight: 600;
     line-height: 150%;
